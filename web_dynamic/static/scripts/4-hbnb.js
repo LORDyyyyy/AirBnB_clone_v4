@@ -85,6 +85,6 @@ $(document).ready(function () {
   placesSearch({});
 
   $('button#search').click(function () {
-    placesSearch(amenitiesData);
+    placesSearch({ amenities: amenitiesData });
   });
 });
